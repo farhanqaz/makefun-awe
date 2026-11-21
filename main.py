@@ -6,7 +6,7 @@ The program is deterministic, so every run produces the same text.
 import argparse
 from pathlib import Path
 
-TEXT = "The hammock gives, and settles, and gives again.\nA rope creaks up in the apple tree.\nYour book has slid flat onto your chest.\nThe sun moves off your face, and you let it,\nand the earth goes round with the garden on it,\nand the hammock takes the weight."
+TEXT = "The mill went quiet first, then the road,\nthen the name on the gate.\nThe stone stayed where it was set down,\nand rain fills the hole in the middle,\nand grass comes up through it,\nand its whole weight is on the ground,\nand the ground does not mind.\nIt was sea floor once."
 
 OUTPUT_PATH = Path("/output/entry.txt")
 MAX_CODE_POINTS = 280
