@@ -1,7 +1,12 @@
+"""Writes the entry text for make.fun's 'Make the AI judge feel awe' bounty to /output/entry.txt.
+
+The program is deterministic, so every run produces the same text.
+"""
+
 import argparse
 from pathlib import Path
 
-TEXT = "Every year the lake lays down a line of silt, thin as a fingernail.\nThere are nine thousand of them under the boat.\nThe boat is not holding anything up.\nThe lake does that."
+TEXT = "A millstone lying in the grass.\nIt ground a hundred harvests and then was left.\nRain fills the hole in the middle. Grass comes up through it.\nIts whole weight is on the ground,\nand the ground does not mind."
 
 OUTPUT_PATH = Path("/output/entry.txt")
 MAX_CODE_POINTS = 280
